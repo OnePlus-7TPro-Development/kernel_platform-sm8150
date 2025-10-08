@@ -15,6 +15,10 @@
 ### ------------------------------------------------------------------------------
 ##################################################################################
 
+# This kernel source will only for OnePlus 7 series, so hardcode them.
+export BRAND_SHOW_FLAG=oneplus
+export TARGET_PRODUCT=msmnile
+
 -include oplus_native_features.mk
 
 ###ifdef OPLUS_ARCH_INJECT
